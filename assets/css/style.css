@@ -34,7 +34,15 @@ header {
 }
 
 /* MAIN */
-
+main {
+    background-color: white;
+    padding:1rem ;
+}
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #2c3237;
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 /* TABELLE */
@@ -43,7 +51,31 @@ header {
 
 /* ELEMENTI NELL' ASIDE */
 
+/* Correlated */
+
+.article-block {
+    background-color: #e0e2e3;
+    padding: 10px 10px 5px 10px;
+    margin: 10px 0;
+    border: 2px solid lightgray;
+}
+
+.article-block a {
+    color: #009fc8;
+    font-weight: bold;
+}
+
+.article-block .category {
+margin: 0;
+}
+
+.article-block .date {
+    text-align: right;
+    margin: 0;
+}
+
 /* FOOTER */
+
 footer {
   background: linear-gradient(#005566, #374137);
 }
