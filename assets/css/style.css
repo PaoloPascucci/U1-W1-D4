@@ -17,6 +17,7 @@ footer {
 header {
   background: linear-gradient(#0c9fc1, #056f88);
   font-weight: 600;
+  line-height: 24px;
 }
 .logo {
   width: 50%;
@@ -29,8 +30,6 @@ header {
   text-transform: uppercase;
 }
 
-
-
 /* MAIN */
 main {
   background-color: white;
@@ -38,20 +37,37 @@ main {
   margin: 30px 0;
   box-shadow: 6px 7px 18px lightgray;
 }
+
 h2 {
   font-size: 30px;
   font-weight: 600;
+  margin: 10px 0 12px;
 }
-
+.description {
+  line-height: 20px;
+  margin: 12px 0;
+}
 h3 {
   text-transform: uppercase;
   text-align: center;
   color: #2c3237;
+  font-weight: 600;
+}
+main ul,
+main ol {
+  list-style: unset;
+  margin: 20px 0 20px 40px;
+  line-height: 24px;
+}
+
+main p {
+  margin: 1rem 0;
 }
 
 .info {
   color: lightgray;
   font-size: 19px;
+  margin-bottom: 10px;
 }
 .violet {
   color: #aa2072;
@@ -72,6 +88,7 @@ table {
 }
 table th {
   font-style: italic;
+  font-weight: 600;
 }
 table td {
   text-align: center;
@@ -80,7 +97,7 @@ table td {
 }
 thead tr td {
   background-color: #3466cf;
-  color: white;  
+  color: white;
 }
 
 tbody tr:nth-child(even) {
@@ -125,7 +142,9 @@ button[type="submit"] {
 /* ELEMENTI NELL' ASIDE */
 
 /* Correlated */
-
+.correlated {
+  margin-top: 25px;
+}
 .article-block {
   background-color: #e0e2e3;
   padding: 10px 10px 5px 10px;
@@ -139,7 +158,7 @@ button[type="submit"] {
 }
 
 .article-block .category {
-  margin: 0;
+  margin: 8px 0;
 }
 
 .article-block .date {
@@ -151,6 +170,7 @@ button[type="submit"] {
 
 footer {
   background: linear-gradient(#005566, #374137);
+  line-height: 20px;
 }
 
 footer a {
