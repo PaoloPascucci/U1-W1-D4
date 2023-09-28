@@ -37,16 +37,52 @@ header {
 main {
     background-color: white;
     padding:1rem ;
+    margin: 30px 0;
+    box-shadow: 6px 7px 18px lightgray;
 }
+h2 {
+font-size: 30px;
+font-weight: 600;
+}
+
 h3 {
     text-transform: uppercase;
     text-align: center;
     color: #2c3237;
 }
+
+.info {
+color: lightgray;
+}
+.violet {
+    color: #aa2072;
+}
+.tag {
+    border: 1px solid gray;
+    background-color: lightgray;
+    border-radius:8px ;
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 /* TABELLE */
-
+th {
+    font-style: italic;
+}
+table td {
+    text-align: center;
+}
+thead tr td {
+    background-color: #3466cf;
+    color: white;
+    border: 1px solid white;
+}
+tbody {
+    border-top: #3466cf 2px solid;;
+    border-bottom: #3466cf 2px solid;
+}
+tbody tr:nth-child(even){
+    background-color: lightgray;
+}
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
