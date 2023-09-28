@@ -35,79 +35,118 @@ header {
 
 /* MAIN */
 main {
-    background-color: white;
-    padding:1rem ;
-    margin: 30px 0;
-    box-shadow: 6px 7px 18px lightgray;
+  background-color: white;
+  padding: 1rem;
+  margin: 30px 0;
+  box-shadow: 6px 7px 18px lightgray;
 }
 h2 {
-font-size: 30px;
-font-weight: 600;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 h3 {
-    text-transform: uppercase;
-    text-align: center;
-    color: #2c3237;
+  text-transform: uppercase;
+  text-align: center;
+  color: #2c3237;
 }
 
 .info {
-color: lightgray;
+  color: lightgray;
+  font-size: 19px;
 }
 .violet {
-    color: #aa2072;
+  color: #aa2072;
 }
 .tag {
-    border: 1px solid gray;
-    background-color: lightgray;
-    border-radius:8px ;
+  border: 1px solid gray;
+  background-color: lightgray;
+  border-radius: 8px;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 /* TABELLE */
-th {
-    font-style: italic;
+table {
+  margin: auto;
+  width: 100%;
+  border-spacing: unset;
+  border-bottom: #3466cf 2px solid;
+}
+table th {
+  font-style: italic;
 }
 table td {
-    text-align: center;
+  text-align: center;
+  padding: 5px;
+  /* border-right: 1px solid #6288d1; */
 }
 thead tr td {
-    background-color: #3466cf;
-    color: white;
-    border: 1px solid white;
+  background-color: #3466cf;
+  color: white;  
 }
-tbody {
-    border-top: #3466cf 2px solid;;
-    border-bottom: #3466cf 2px solid;
+
+tbody tr:nth-child(even) {
+  background-color: #eeeeee;
 }
-tbody tr:nth-child(even){
-    background-color: lightgray;
+iframe {
+  border-radius: 20px;
 }
 /* FORM */
+form {
+  background-color: #e0e2e3;
+  padding: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+form h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+form .desc {
+  text-align: left;
+  margin: auto;
+  width: 250px;
+  margin-bottom: 5px;
+}
+form div {
+  width: 100%;
+}
+input[type="email"] {
+  border: none;
+  border-bottom: 1px dotted gray;
+  padding: 6px;
+}
+button[type="submit"] {
+  color: white;
+  background-color: #3466cf;
+  border: none;
+  font-weight: 600;
+  padding: 6px;
+}
 
 /* ELEMENTI NELL' ASIDE */
 
 /* Correlated */
 
 .article-block {
-    background-color: #e0e2e3;
-    padding: 10px 10px 5px 10px;
-    margin: 10px 0;
-    border: 2px solid lightgray;
+  background-color: #e0e2e3;
+  padding: 10px 10px 5px 10px;
+  margin: 10px 0;
+  border: 2px solid lightgray;
 }
 
 .article-block a {
-    color: #009fc8;
-    font-weight: bold;
+  color: #009fc8;
+  font-weight: bold;
 }
 
 .article-block .category {
-margin: 0;
+  margin: 0;
 }
 
 .article-block .date {
-    text-align: right;
-    margin: 0;
+  text-align: right;
+  margin: 0;
 }
 
 /* FOOTER */
